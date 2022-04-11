@@ -21,4 +21,5 @@ func GenerateCheck() HealthCheck {
 
 func main() {
 	fmt.Println("Тут будет выведен идентификатор")
+	fmt.Println(GenerateCheck())
 }
